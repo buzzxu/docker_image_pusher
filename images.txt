@@ -16,4 +16,5 @@ buzzxu/docker-ci:node-taro
 bitnami/consul:latest
 --platform linux/arm64/v8 eclipse-temurin:21-jdk
 #打包使用
-moby/buildkit:buildx-stable-1
+#moby/buildkit:buildx-stable-1
+#tonistiigi/binfmt
