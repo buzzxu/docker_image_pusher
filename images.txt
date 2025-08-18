@@ -1,6 +1,12 @@
-nginx
-#支持私库
-k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
-xhofe/alist:latest
-#支持指定架构
---platform=linux/arm64 xiaoyaliu/alist
+nginx:latest
+buzzxu/shy2you:latest
+buzzxu/deploy-box:latest
+buzzxu/image-server:latest
+buzzxu/docker-ci:golang
+buzzxu/docker-ci:java
+buzzxu/docker-ci:java-21
+buzzxu/docker-ci:maven
+buzzxu/docker-ci:node
+buzzxu/docker-ci:node-22
+buzzxu/docker-ci:node-16
+buzzxu/docker-ci:node-taro
