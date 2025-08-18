@@ -1,3 +1,5 @@
+redis:latest
+redis:alpine
 nginx:latest
 --platform=linux/arm64/v8 nginx:latest
 buzzxu/shy2you:latest
@@ -11,4 +13,8 @@ buzzxu/docker-ci:node
 buzzxu/docker-ci:node-22
 buzzxu/docker-ci:node-16
 buzzxu/docker-ci:node-taro
-redis:latest
+bitnami/consul:latest
+--platform linux/arm64/v8 eclipse-temurin:21-jdk
+#打包使用
+moby/buildkit:buildx-stable-1
+tonistiigi/binfmt
