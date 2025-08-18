@@ -1,4 +1,5 @@
 nginx:latest
+--platform=linux/arm64/v8 nginx:latest
 buzzxu/shy2you:latest
 buzzxu/deploy-box:latest
 buzzxu/image-server:latest
@@ -10,3 +11,4 @@ buzzxu/docker-ci:node
 buzzxu/docker-ci:node-22
 buzzxu/docker-ci:node-16
 buzzxu/docker-ci:node-taro
+redis:latest
