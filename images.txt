@@ -1,3 +1,8 @@
+buzzxu/java:latest
+buzzxu/java:21
+buzzxu/java:21-alpine
+buzzxu/java:21-zulu
+buzzxu/java:21-openj9
 redis:latest
 redis:alpine
 nginx:latest
