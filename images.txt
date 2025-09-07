@@ -8,7 +8,6 @@ buzzxu/docker:debian
 redis:latest
 redis:alpine
 nginx:latest
---platform=linux/arm64/v8 nginx:latest
 buzzxu/shy2you:latest
 buzzxu/deploy-box:latest
 buzzxu/image-server:latest
@@ -22,6 +21,10 @@ buzzxu/docker-ci:node-16
 buzzxu/docker-ci:node-taro
 bitnami/consul:latest
 --platform linux/arm64/v8 eclipse-temurin:21-jdk
+--platform=linux/arm64/v8 nginx:latest
+--platform=linux/arm64/v8 mysql:8
+--platform=linux/arm64 minio/minio:latest
+--platform=linux/arm64/v8 redis:8
 #打包使用
 #moby/buildkit:buildx-stable-1
 #tonistiigi/binfmt
